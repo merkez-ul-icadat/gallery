@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo Gallery - hackerspace</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Photo Gallery</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="hackerspace.html">hackerspace</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+      </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/hackerspace/33ED2DC1-A7C8-4014-B347-BDDA96A10ED5.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/hackerspace/33ED2DC1-A7C8-4014-B347-BDDA96A10ED5.jpeg"
+                
+                data-filename="33ED2DC1-A7C8-4014-B347-BDDA96A10ED5.jpeg"
+          
+              >
+              <a href="media/original/hackerspace/33ED2DC1-A7C8-4014-B347-BDDA96A10ED5.jpeg">
+                <img src="media/thumbs/hackerspace/33ED2DC1-A7C8-4014-B347-BDDA96A10ED5.jpeg"
+                     width="120"
+                     height="120"
+                     alt="33ED2DC1-A7C8-4014-B347-BDDA96A10ED5.jpeg" />
+              </a>
+            </li>      
+            <li data-src="media/large/hackerspace/8CA21FEF-BC95-4413-90AD-08395B7B0548.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/hackerspace/8CA21FEF-BC95-4413-90AD-08395B7B0548.jpeg"
+                
+                data-filename="8CA21FEF-BC95-4413-90AD-08395B7B0548.jpeg"
+          
+              >
+              <a href="media/original/hackerspace/8CA21FEF-BC95-4413-90AD-08395B7B0548.jpeg">
+                <img src="media/thumbs/hackerspace/8CA21FEF-BC95-4413-90AD-08395B7B0548.jpeg"
+                     width="120"
+                     height="120"
+                     alt="8CA21FEF-BC95-4413-90AD-08395B7B0548.jpeg" />
+              </a>
+            </li>      
+            <li data-src="media/large/hackerspace/B6CCD391-8B61-4A66-AEE3-AC1900057F5E.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/hackerspace/B6CCD391-8B61-4A66-AEE3-AC1900057F5E.jpeg"
+                
+                data-filename="B6CCD391-8B61-4A66-AEE3-AC1900057F5E.jpeg"
+          
+              >
+              <a href="media/original/hackerspace/B6CCD391-8B61-4A66-AEE3-AC1900057F5E.jpeg">
+                <img src="media/thumbs/hackerspace/B6CCD391-8B61-4A66-AEE3-AC1900057F5E.jpeg"
+                     width="120"
+                     height="120"
+                     alt="B6CCD391-8B61-4A66-AEE3-AC1900057F5E.jpeg" />
+              </a>
+            </li>      
+            <li data-src="media/large/hackerspace/C672E3E5-AACC-45E5-89BA-70E7F854644C.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/hackerspace/C672E3E5-AACC-45E5-89BA-70E7F854644C.jpeg"
+                
+                data-filename="C672E3E5-AACC-45E5-89BA-70E7F854644C.jpeg"
+          
+              >
+              <a href="media/original/hackerspace/C672E3E5-AACC-45E5-89BA-70E7F854644C.jpeg">
+                <img src="media/thumbs/hackerspace/C672E3E5-AACC-45E5-89BA-70E7F854644C.jpeg"
+                     width="120"
+                     height="120"
+                     alt="C672E3E5-AACC-45E5-89BA-70E7F854644C.jpeg" />
+              </a>
+            </li>      
+            <li data-src="media/large/hackerspace/F7553390-AAC1-4264-BAA4-D8CAF70472B7.jpeg"
+                data-sub-html=""
+                data-download-url="media/original/hackerspace/F7553390-AAC1-4264-BAA4-D8CAF70472B7.jpeg"
+                
+                data-filename="F7553390-AAC1-4264-BAA4-D8CAF70472B7.jpeg"
+          
+              >
+              <a href="media/original/hackerspace/F7553390-AAC1-4264-BAA4-D8CAF70472B7.jpeg">
+                <img src="media/thumbs/hackerspace/F7553390-AAC1-4264-BAA4-D8CAF70472B7.jpeg"
+                     width="120"
+                     height="120"
+                     alt="F7553390-AAC1-4264-BAA4-D8CAF70472B7.jpeg" />
+              </a>
+            </li>  </ul>
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>Copyright Text</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
